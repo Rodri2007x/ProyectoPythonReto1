@@ -1,6 +1,6 @@
 class Libro:
-    def __init__ (self, código, titulo, autor, año, categoría, codsocio):
-        self.código = código
+    def __init__ (self, codigo, titulo, autor, año, categoría, codsocio):
+        self.codigo = codigo
         self.titulo = titulo
         self.autor = autor
         self.año = año

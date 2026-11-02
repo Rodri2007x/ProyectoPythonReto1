@@ -1,0 +1,15 @@
+S001,Alba Navarro,alba.navarro@example.com,L003
+S002,Bruno Serrano,bruno.serrano@example.com,L011
+S003,Carla Medina,carla.medina@example.com,None
+S004,Daniel Ortega,daniel.ortega@example.com,L024
+S005,Emma Castillo,emma.castillo@example.com,L032
+S006,Fernando Vega,fernando.vega@example.com,None
+S007,Gabriela Torres,gabriela.torres@example.com,L045
+S008,Hugo Molina,hugo.molina@example.com,L053
+S009,Irene Santos,irene.santos@example.com,None
+S010,Javier Fuentes,javier.fuentes@example.com,L067
+S011,Laura Paredes,laura.paredes@example.com,L078
+S012,Marcos Delgado,marcos.delgado@example.com,None
+S013,Natalia Campos,natalia.campos@example.com,L086
+S014,Óscar Romero,oscar.romero@example.com,None
+S015,Paula Márquez,paula.marquez@example.com,L099
