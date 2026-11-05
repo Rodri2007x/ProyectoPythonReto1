@@ -1,4 +1,7 @@
 # cargar libros
+from Model.Classes.clases import Socio
+from Model.Classes.clases import Libro
+
 def cargar_libros():
     libros = []
     with open("Data/libros.txt", "r", encoding="utf-8") as archivo:
@@ -68,3 +71,23 @@ def mostrar_librosdisponibles(libros):
                 f"\033[1;33mAño:\033[0m {libro.año}, "
                 f"\033[1;33mCategoría:\033[0m {libro.categoría}"
             )
+
+
+
+def buscar_libros_por_titulo(libros):      
+    termino_busqueda = input("Ingrese el término de busqueda:").strip().lower()
+
+    if not termino_busqueda:
+        print("No se ingresó ningun termino de búsqueda.")
+        return
+
+    coincidencias = []
+
+    for libro in libros:
+        if termino_busqueda in libro.titulo.lower():
+            coincidencias.append(libro)
+
+    if coincidencias:
+        mostrar_libros(coincidencias)
+    else:
+        print("No se encontraron libros que coincidan con el término de búsqueda.")

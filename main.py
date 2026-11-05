@@ -13,8 +13,10 @@ def menu_principal():
     while True:
         print("\n+++ Menú Principal +++")
         print("1. Mostrar libros")
-        print("2. Mostrar socios")
-        print("3. Salir")
+        print("2. Mostrar libros disponibles")
+        print("3. buscar libros(Titulo)")
+        print("4. Mostrar socios")
+        print("5. Salir")
 
         opcion = input("Seleccione una opcion: ")
 
@@ -23,9 +25,10 @@ def menu_principal():
         elif opcion == "2":
             mostrar_librosdisponibles(libros)
         elif opcion == "3":
-            mostrar_socios(socios)
-            break
+            buscar_libros_por_titulo(libros)
         elif opcion == "4":
+            mostrar_socios(socios)
+        elif opcion == "5":
             print("Saliendo del programa...")
             break
         else:
