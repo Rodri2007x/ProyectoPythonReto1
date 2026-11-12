@@ -59,7 +59,7 @@ def mostrar_socios(socios):
             f"\033[1;33mEmail:\033[0m {socio.email}, "
             f"\033[1;33mCódigo Prestado:\033[0m {socio.codiprestado}"
         )
-
+# Mostrar libros disponibles
 def mostrar_librosdisponibles(libros):
     print("\n+++ Lista de Libros Disponibles +++")
     for libro in libros:
@@ -73,7 +73,7 @@ def mostrar_librosdisponibles(libros):
             )
 
 
-
+# Buscar libros por título
 def buscar_libros_por_titulo(libros):      
     termino_busqueda = input("Ingrese el término de busqueda:").strip().lower()
 
@@ -92,6 +92,8 @@ def buscar_libros_por_titulo(libros):
     else:
         print("No se encontraron libros que coincidan con el término de búsqueda.")
 
+
+# Prestar libro
 def prestar_libro(libros, socios):
     codigo_libro = input("Código del libro: ").strip()
     codigo_socio = input("Código del socio: ").strip()
@@ -108,7 +110,7 @@ def prestar_libro(libros, socios):
         return
 
     socio_encontrado = None
-    
+
     for socio in socios:
         if socio.codsocio == codigo_socio:
             socio_encontrado = socio
@@ -130,3 +132,34 @@ def prestar_libro(libros, socios):
     socio_encontrado.codiprestado = libro_encontrado.codigo
 
     print(f"Se ha prestado «{libro_encontrado.titulo}» a {socio_encontrado.nombre}.")
+
+
+# Devolver libro
+def devolver_libro(libros, socios):
+    codigo_socio = input("Código del socio: ").strip()
+    
+    socio_encontrado = None
+
+    for socio in socios:
+        if socio.codsocio == codigo_socio:
+            socio_encontrado = socio
+            break
+
+    if socio_encontrado is None:
+        print("No existe un socio con ese código.")
+        return
+
+    codigo_libro = socio_encontrado.codiprestado
+
+    if codigo_libro is None:
+        print("El socio no tiene ningún libro prestado.")
+        return
+
+    for libro in libros:
+        if libro.codigo == codigo_libro and libro.codsocio == codigo_socio:
+            libro.codsocio = None
+            socio_encontrado.codiprestado = None
+            print(f"Se ha devuelto «{libro.titulo}».")
+            return
+
+    print("No se encontró el préstamo de ese socio.")

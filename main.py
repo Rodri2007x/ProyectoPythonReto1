@@ -16,7 +16,9 @@ def menu_principal():
         print("2. Mostrar libros disponibles")
         print("3. buscar libros(Titulo)")
         print("4. Mostrar socios")
-        print("5. Salir")
+        print("5. Prestar libro")
+        print("6. Devolver libro")
+        print("7. Salir")
 
         opcion = input("Seleccione una opcion: ")
 
@@ -29,6 +31,10 @@ def menu_principal():
         elif opcion == "4":
             mostrar_socios(socios)
         elif opcion == "5":
+            prestar_libro(libros, socios)
+        elif opcion == "6":
+            devolver_libro(libros, socios)
+        elif opcion == "7":
             print("Saliendo del programa...")
             break
         else:
