@@ -133,11 +133,10 @@ def prestar_libro(libros, socios):
 
     print(f"Se ha prestado «{libro_encontrado.titulo}» a {socio_encontrado.nombre}.")
 
-
+    
 # Devolver libro
 def devolver_libro(libros, socios):
     codigo_socio = input("Código del socio: ").strip()
-    
     socio_encontrado = None
 
     for socio in socios:
@@ -163,3 +162,19 @@ def devolver_libro(libros, socios):
             return
 
     print("No se encontró el préstamo de ese socio.")
+
+# Mostrar socios con libros prestados
+def mostrar_socios_con_prestamo(libros, socios):
+    hay_prestamos = False
+
+    for socio in socios:
+        if socio.codiprestado is not None:
+            for libro in libros:
+                if libro.codigo == socio.codiprestado:
+                    print(f"{socio.nombre} tiene prestado «{libro.titulo}».")
+                    hay_prestamos = True
+                    break
+
+    if not hay_prestamos:
+        print("No hay socios con libros prestados.")
+
