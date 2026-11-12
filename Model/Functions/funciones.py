@@ -91,3 +91,42 @@ def buscar_libros_por_titulo(libros):
         mostrar_libros(coincidencias)
     else:
         print("No se encontraron libros que coincidan con el término de búsqueda.")
+
+def prestar_libro(libros, socios):
+    codigo_libro = input("Código del libro: ").strip()
+    codigo_socio = input("Código del socio: ").strip()
+
+    libro_encontrado = None
+
+    for libro in libros:
+        if libro.codigo == codigo_libro:
+            libro_encontrado = libro
+            break
+
+    if libro_encontrado is None:
+        print("No existe un libro con ese código.")
+        return
+
+    socio_encontrado = None
+    
+    for socio in socios:
+        if socio.codsocio == codigo_socio:
+            socio_encontrado = socio
+            break
+
+    if socio_encontrado is None:
+        print("No existe un socio con ese código.")
+        return
+
+    if socio_encontrado.codiprestado is not None:
+        print(f"El socio ya tiene el libro {socio_encontrado.codiprestado}.")
+        return
+
+    if libro_encontrado.codsocio is not None:
+        print(f"El libro ya está prestado al socio {libro_encontrado.codsocio}.")
+        return
+
+    libro_encontrado.codsocio = socio_encontrado.codsocio
+    socio_encontrado.codiprestado = libro_encontrado.codigo
+
+    print(f"Se ha prestado «{libro_encontrado.titulo}» a {socio_encontrado.nombre}.")
