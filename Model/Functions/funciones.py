@@ -178,3 +178,49 @@ def mostrar_socios_con_prestamo(libros, socios):
     if not hay_prestamos:
         print("No hay socios con libros prestados.")
 
+def anadir_socio(socios):
+    codigo = input("Código del socio: ").strip().upper()
+
+    for socio in socios:
+        if socio.codsocio == codigo:
+            print("Ya existe un socio con ese código.")
+            return
+
+    nombre = input("Nombre: ").strip()
+    email = input("Email: ").strip()
+
+    for campo in [codigo, nombre, email]:
+        if not campo or "," in campo:
+            print("Rellena todos los campos y evita las comas.")
+            return
+
+    nuevo_socio = Socio(codigo, nombre, email, None)
+    socios.append(nuevo_socio)
+    print(f"Socio {codigo} añadido.")
+
+
+def anadir_libro(libros):
+    codigo = input("Código del libro: ").strip().upper()
+
+    for libro in libros:
+        if libro.codigo == codigo:
+            print("Ya existe un libro con ese código.")
+            return
+
+    titulo = input("Título: ").strip()
+    autor = input("Autor: ").strip()
+    año = input("Año: ").strip()
+    categoria = input("Categoría: ").strip()
+
+    for campo in [codigo, titulo, autor, categoria]:
+        if not campo or "," in campo:
+            print("Rellena todos los campos y evita las comas.")
+            return
+
+    if not año.isdecimal():
+        print("Escribe el año con números.")
+        return
+
+    nuevo_libro = Libro(codigo, titulo, autor, año, categoria, None)
+    libros.append(nuevo_libro)
+    print(f"Libro {codigo} añadido.")
