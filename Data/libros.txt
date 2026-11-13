@@ -1,0 +1,100 @@
+L001,El faro de las mareas,Clara Valverde,2012,Novela,None
+L002,La casa del almendro,Mateo Soler,2015,Novela,None
+L003,Cartas desde el invierno,Elena Rivas,2018,Novela,S001
+L004,El jardín de los domingos,Pablo Ferrer,2009,Novela,None
+L005,Una ventana al sur,Lucía Montes,2021,Novela,None
+L006,Los días del tranvía,Andrés Vidal,2016,Novela,None
+L007,La última estación,Marina Robles,2011,Novela,None
+L008,El mapa de las despedidas,Diego Salvatierra,2023,Novela,None
+L009,Cuando vuelve la lluvia,Inés Cabrera,2019,Novela,None
+L010,La ciudad de los balcones,Samuel Prado,2014,Novela,None
+L011,El secreto del relojero,Clara Valverde,2017,Misterio,S002
+L012,Sombras en el archivo,Mateo Soler,2020,Misterio,None
+L013,La llave del sótano,Elena Rivas,2013,Misterio,None
+L014,El caso del cuadro azul,Pablo Ferrer,2022,Misterio,None
+L015,Silencio en la biblioteca,Lucía Montes,2016,Misterio,None
+L016,La habitación cerrada,Andrés Vidal,2010,Misterio,None
+L017,El pasajero de medianoche,Marina Robles,2024,Misterio,None
+L018,Las huellas del puerto,Diego Salvatierra,2018,Misterio,None
+L019,El mensaje de la torre,Inés Cabrera,2015,Misterio,None
+L020,La niebla del jueves,Samuel Prado,2021,Misterio,None
+L021,El reino de las raíces,Clara Valverde,2014,Fantasía,None
+L022,La aprendiz de las nubes,Mateo Soler,2019,Fantasía,None
+L023,Los guardianes del cristal,Elena Rivas,2011,Fantasía,None
+L024,El bosque de las siete lunas,Pablo Ferrer,2023,Fantasía,S004
+L025,La brújula de los sueños,Lucía Montes,2017,Fantasía,None
+L026,El herrero de las estrellas,Andrés Vidal,2015,Fantasía,None
+L027,La corona del río,Marina Robles,2020,Fantasía,None
+L028,El dragón de la biblioteca,Diego Salvatierra,2012,Fantasía,None
+L029,Los puentes de Ámbar,Inés Cabrera,2024,Fantasía,None
+L030,La isla de los nombres,Samuel Prado,2018,Fantasía,None
+L031,La órbita de los recuerdos,Clara Valverde,2020,Ciencia ficción,None
+L032,El último mensaje de Marte,Mateo Soler,2016,Ciencia ficción,S005
+L033,La ciudad bajo Europa,Elena Rivas,2022,Ciencia ficción,None
+L034,Viaje a la estrella gris,Pablo Ferrer,2013,Ciencia ficción,None
+L035,Los archivos del futuro,Lucía Montes,2024,Ciencia ficción,None
+L036,La estación de las auroras,Andrés Vidal,2018,Ciencia ficción,None
+L037,El jardín de los androides,Marina Robles,2021,Ciencia ficción,None
+L038,La memoria del cometa,Diego Salvatierra,2015,Ciencia ficción,None
+L039,El planeta de las mareas,Inés Cabrera,2019,Ciencia ficción,None
+L040,El eco del año dos mil,Samuel Prado,2011,Ciencia ficción,None
+L041,La expedición del valle verde,Clara Valverde,2010,Aventura,None
+L042,El tesoro de la costa roja,Mateo Soler,2014,Aventura,None
+L043,La ruta de los volcanes,Elena Rivas,2017,Aventura,None
+L044,Los navegantes del alba,Pablo Ferrer,2021,Aventura,None
+L045,El paso de las águilas,Lucía Montes,2013,Aventura,S007
+L046,La cueva de los vientos,Andrés Vidal,2019,Aventura,None
+L047,El río sin mapas,Marina Robles,2016,Aventura,None
+L048,La travesía del desierto,Diego Salvatierra,2022,Aventura,None
+L049,Los caminos de la selva,Inés Cabrera,2012,Aventura,None
+L050,La isla del horizonte,Samuel Prado,2020,Aventura,None
+L051,El paraguas de colores,Clara Valverde,2015,Infantil,None
+L052,La tortuga que buscaba el mar,Mateo Soler,2023,Infantil,None
+L053,Un gigante en el colegio,Elena Rivas,2018,Infantil,S008
+L054,La bicicleta de las estrellas,Pablo Ferrer,2011,Infantil,None
+L055,El gato del sombrero verde,Lucía Montes,2020,Infantil,None
+L056,La nube que perdió su lluvia,Andrés Vidal,2014,Infantil,None
+L057,El club de las semillas,Marina Robles,2022,Infantil,None
+L058,Las aventuras de Nora y el búho,Diego Salvatierra,2017,Infantil,None
+L059,El tren de los animales,Inés Cabrera,2010,Infantil,None
+L060,La montaña de los cuentos,Samuel Prado,2019,Infantil,None
+L061,Versos de la orilla,Clara Valverde,2013,Poesía,None
+L062,La luz entre las hojas,Mateo Soler,2018,Poesía,None
+L063,Cuaderno de las estaciones,Elena Rivas,2021,Poesía,None
+L064,Palabras junto al fuego,Pablo Ferrer,2016,Poesía,None
+L065,El pulso de la ciudad,Lucía Montes,2012,Poesía,None
+L066,Los nombres del agua,Andrés Vidal,2024,Poesía,None
+L067,La música del patio,Marina Robles,2019,Poesía,S010
+L068,Pequeño atlas del silencio,Diego Salvatierra,2014,Poesía,None
+L069,Poemas para el camino,Inés Cabrera,2022,Poesía,None
+L070,La sombra de las flores,Samuel Prado,2017,Poesía,None
+L071,Crónicas del barrio antiguo,Clara Valverde,2011,Historia,None
+L072,Los oficios de otra época,Mateo Soler,2016,Historia,None
+L073,Un paseo por las murallas,Elena Rivas,2020,Historia,None
+L074,La vida junto al ferrocarril,Pablo Ferrer,2014,Historia,None
+L075,Memorias del viejo mercado,Lucía Montes,2023,Historia,None
+L076,Los caminos de la sal,Andrés Vidal,2017,Historia,None
+L077,La escuela de nuestros abuelos,Marina Robles,2012,Historia,None
+L078,Historias del puerto antiguo,Diego Salvatierra,2021,Historia,S011
+L079,El tiempo de los molinos,Inés Cabrera,2015,Historia,None
+L080,Cartografía de una comarca,Samuel Prado,2019,Historia,None
+L081,Preguntas bajo el microscopio,Clara Valverde,2022,Ciencia,None
+L082,Un universo en el jardín,Mateo Soler,2017,Ciencia,None
+L083,El lenguaje de las células,Elena Rivas,2014,Ciencia,None
+L084,La energía que nos rodea,Pablo Ferrer,2020,Ciencia,None
+L085,Los secretos de las rocas,Lucía Montes,2016,Ciencia,None
+L086,El viaje de una gota,Andrés Vidal,2023,Ciencia,S013
+L087,Las matemáticas del paseo,Marina Robles,2018,Ciencia,None
+L088,La química de la cocina,Diego Salvatierra,2011,Ciencia,None
+L089,Observar el cielo nocturno,Inés Cabrera,2021,Ciencia,None
+L090,La vida en una charca,Samuel Prado,2015,Ciencia,None
+L091,La panadera del amanecer,Clara Valverde,2016,Biografía,None
+L092,Un maestro entre montañas,Mateo Soler,2021,Biografía,None
+L093,La voz de una violinista,Elena Rivas,2015,Biografía,None
+L094,Los viajes de una enfermera,Pablo Ferrer,2019,Biografía,None
+L095,El carpintero del barrio,Lucía Montes,2013,Biografía,None
+L096,La astrónoma del valle,Andrés Vidal,2022,Biografía,None
+L097,Memorias de una jardinera,Marina Robles,2017,Biografía,None
+L098,El fotógrafo de los caminos,Diego Salvatierra,2024,Biografía,None
+L099,La historia de un librero,Inés Cabrera,2014,Biografía,S015
+L100,Una vida sobre el escenario,Samuel Prado,2020,Biografía,None
