@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime # sirve la para registrar la fecha y hora de la actividad en el log (no encuentro forma nativa de hacerlo sin importar datetime) - Rodrigo
 
 from Model.Classes.clases import Libro, Socio
 
@@ -38,13 +38,14 @@ def cargar_socios():
 
     return socios
 
-
+# Registrar actividad en log.txt
 def registrar_actividad(evento, detalles):
     fecha = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     try:
         with open("log.txt", "a", encoding="utf-8") as archivo:
             archivo.write(f"[{fecha}][{evento}][{detalles}]\n")
+            
     except OSError as error:
         print(f"No se pudo escribir en log.txt: {error}")
         return False

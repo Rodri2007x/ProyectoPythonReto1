@@ -1,4 +1,4 @@
-from Model.Classes.clases import Libro
+from Model.Classes.clases import *
 
 
 # Mostrar libros
@@ -48,7 +48,7 @@ def buscar_libros_por_titulo(libros):
     else:
         print("No se encontraron libros que coincidan con el término de búsqueda.")
 
-
+# Añadir libro
 def anadir_libro(libros):
     codigo = input("Código del libro: ").strip().upper()
 

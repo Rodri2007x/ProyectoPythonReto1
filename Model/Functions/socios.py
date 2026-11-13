@@ -1,4 +1,4 @@
-from Model.Classes.clases import Socio
+from Model.Classes.clases import *
 
 
 # Mostrar socios
@@ -12,7 +12,7 @@ def mostrar_socios(socios):
             f"\033[1;33mCódigo Prestado:\033[0m {socio.codiprestado}"
         )
 
-
+# Añadir socio
 def anadir_socio(socios):
     codigo = input("Código del socio: ").strip().upper()
 

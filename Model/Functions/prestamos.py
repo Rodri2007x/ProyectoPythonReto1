@@ -1,5 +1,5 @@
-from Errors.errores import ErrorPrestamo
-from Model.Functions.archivos import registrar_actividad
+from Errors.errores import *
+from Model.Functions.archivos import *
 
 
 # Prestar libro

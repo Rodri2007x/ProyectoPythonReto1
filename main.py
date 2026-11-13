@@ -1,16 +1,7 @@
-from Model.Functions.archivos import cargar_libros, cargar_socios
-from Model.Functions.libros import (
-    anadir_libro,
-    buscar_libros_por_titulo,
-    mostrar_libros,
-    mostrar_librosdisponibles,
-)
-from Model.Functions.prestamos import (
-    devolver_libro,
-    mostrar_socios_con_prestamo,
-    prestar_libro,
-)
-from Model.Functions.socios import anadir_socio, mostrar_socios
+from Model.Functions.archivos import *
+from Model.Functions.libros import *
+from Model.Functions.prestamos import *
+from Model.Functions.socios import *
 
 # Decir que todos los datos se han cargado 
 libros = cargar_libros()
